@@ -16,6 +16,10 @@
 		219D3F3E20E220F500040432 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 219D3F3D20E220F500040432 /* main.m */; };
 		219D3F4820E220F600040432 /* SwizzlingDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 219D3F4720E220F600040432 /* SwizzlingDemoTests.m */; };
 		219D3F5320E220F600040432 /* SwizzlingDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 219D3F5220E220F600040432 /* SwizzlingDemoUITests.m */; };
+		219D3F6520E2236500040432 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 219D3F6420E2236500040432 /* Person.m */; };
+		219D3F6B20E3236400040432 /* NSObject+RFSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 219D3F6A20E3236400040432 /* NSObject+RFSwizzling.m */; };
+		219D3F6E20E32E7900040432 /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = 219D3F6D20E32E7900040432 /* Animal.m */; };
+		219D3F7120E3309600040432 /* Chicken.m in Sources */ = {isa = PBXBuildFile; fileRef = 219D3F7020E3309600040432 /* Chicken.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,14 @@
 		219D3F4E20E220F600040432 /* SwizzlingDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwizzlingDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		219D3F5220E220F600040432 /* SwizzlingDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwizzlingDemoUITests.m; sourceTree = "<group>"; };
 		219D3F5420E220F600040432 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		219D3F6320E2236500040432 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		219D3F6420E2236500040432 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		219D3F6920E3236400040432 /* NSObject+RFSwizzling.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+RFSwizzling.h"; sourceTree = "<group>"; };
+		219D3F6A20E3236400040432 /* NSObject+RFSwizzling.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+RFSwizzling.m"; sourceTree = "<group>"; };
+		219D3F6C20E32E7900040432 /* Animal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
+		219D3F6D20E32E7900040432 /* Animal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
+		219D3F6F20E3309600040432 /* Chicken.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Chicken.h; sourceTree = "<group>"; };
+		219D3F7020E3309600040432 /* Chicken.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Chicken.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +119,14 @@
 				219D3F2C20E220F100040432 /* AppDelegate.m */,
 				219D3F2E20E220F100040432 /* ViewController.h */,
 				219D3F2F20E220F100040432 /* ViewController.m */,
+				219D3F6920E3236400040432 /* NSObject+RFSwizzling.h */,
+				219D3F6A20E3236400040432 /* NSObject+RFSwizzling.m */,
+				219D3F6320E2236500040432 /* Person.h */,
+				219D3F6420E2236500040432 /* Person.m */,
+				219D3F6C20E32E7900040432 /* Animal.h */,
+				219D3F6D20E32E7900040432 /* Animal.m */,
+				219D3F6F20E3309600040432 /* Chicken.h */,
+				219D3F7020E3309600040432 /* Chicken.m */,
 				219D3F3120E220F100040432 /* Main.storyboard */,
 				219D3F3720E220F500040432 /* Assets.xcassets */,
 				219D3F3920E220F500040432 /* LaunchScreen.storyboard */,
@@ -265,10 +285,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				219D3F6520E2236500040432 /* Person.m in Sources */,
 				219D3F3020E220F100040432 /* ViewController.m in Sources */,
 				219D3F2D20E220F100040432 /* AppDelegate.m in Sources */,
 				219D3F3E20E220F500040432 /* main.m in Sources */,
 				219D3F3620E220F100040432 /* SwizzlingDemo.xcdatamodeld in Sources */,
+				219D3F6E20E32E7900040432 /* Animal.m in Sources */,
+				219D3F6B20E3236400040432 /* NSObject+RFSwizzling.m in Sources */,
+				219D3F7120E3309600040432 /* Chicken.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
